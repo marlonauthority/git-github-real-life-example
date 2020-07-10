@@ -102,6 +102,11 @@ git pull origin master --rebase
 Isto fara com que os commits locais e remoto fiquem em ordem, ai sim podendo fazer um push origin.
 
 
+### Vendo o histórico de ponteiros
+```
+git reflog
+```
+
 ### Contribuindo 
 1 - Primeiro, faço um fork do projeto.
 
