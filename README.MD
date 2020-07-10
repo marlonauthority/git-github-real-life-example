@@ -1,3 +1,35 @@
+#### cat ~/.gitconfig
+
+```
+[core]
+	autocrlf = input
+	safecrlf = warn
+	editor = vim
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Marlon Authority
+	email = 15050029+marlonauthority@users.noreply.github.com
+[help]
+	autocorrect = 1
+[color]
+	ui = true
+
+```
+
 ## Sincronizando 
 Para atualizar seu repositório local com a mais nova versão, execute:
 ```
