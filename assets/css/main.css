@@ -1962,10 +1962,10 @@ input, select, textarea {
 			}
 
 			.main.style1 > .content {
-				-moz-transition: opacity 1s ease;
-				-webkit-transition: opacity 1s ease;
-				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
+				-moz-transition: opacity 0.5s ease;
+				-webkit-transition: opacity 0.5s ease;
+				-ms-transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease;
 				-moz-transform: translateZ(0);
 				-webkit-transform: translateZ(0);
 				-ms-transform: translateZ(0);
@@ -2253,7 +2253,7 @@ input, select, textarea {
 
 /* One */
 
-	#one {
+	#o-que-faco {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2262,7 +2262,7 @@ input, select, textarea {
 
 /* Two */
 
-	#two {
+	#quem-sou {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
